@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:#FAEBD7;
+}
+
+.header{
+	height: 65px;
+	width: 100%;
+	color:#C0C0C0;
+	background-color: rgba(34,49,52,0.9);
+	position:fixed;
+	top:0;
+}
+
+.header-left{
+	float:left;
+}
+.header-left h1{
+	padding:0px 5px;
+}
+
+.header-right{
+	float:right;
+	padding:7px 20px;
+	text-align:right;
+}
+
+.contents{
+	padding:65px 100px;
+}
+
+.reply{
+	font-size:small;
+	padding:0px 0px 0px 100px;
+	color:red;
+}
+
+.write{
+	padding:65px 100px;
+	
+}
